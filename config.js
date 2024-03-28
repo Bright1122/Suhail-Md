@@ -14,7 +14,7 @@ global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Accta";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
@@ -32,7 +32,7 @@ global.style = process.env.STYLE || "5",  // put '1' to "5" here to check bot st
 
 
 global.devs = "923184474176" // Developer Conatact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "233243831887";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "233597544298";
 
 module.exports = {
@@ -49,11 +49,11 @@ module.exports = {
  
   author: process.env.PACK_AUTHER || "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "Bright",
+  ownername:process.env.OWNER_NAME|| "Bright Larry",
 
 
-  sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
+  sessionName:process.env.SESSION_ID|| "",  // SESESSION_19_22_03_28_eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ05uNXpkSmdhdlBsRGFQbGxlTk9OV0ZZUGxlbndIR253VVZIaXoyNkJIMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUhWa0NNeG9yNjRNMm1QR0dvYWcyb2lGdFlGUUVtV1V3UGd0T0thL3lGbz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1SGF6UlpFNDF6YlplS3cxVGh2SlVzSVM2NFk1UUdlU2p4NmFralY3czA4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuTDBqSmUrVFlxYWV6UjNLVHNRRE9mRDZLOXUwRzk3NWtIRmw0a09BUmlFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldGZHVVb1hacFB5bTBwMkFFV0pmOTlublE1R3FEN3ZYQ1RQVk1sWmtwa0E9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imx5c05neXA2T3FMYkM5TW1WVXlBejd2eXo0TlFEOGxKYzhVZlR6VUxTVnc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic1BlTlk4emdGbVNhaCtRdEI5ZVhXVGRmNXl0OFJDR0R1UUdHYmdYWGsyVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVFVZSkorUmJKazM3cDlQazlwRkM2Skx1bWxpdmYyVWxjOVk2WHRYYngyZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii8yTmppRTNaZ3NWSTlQdzdOREV3Sm54ci9MQThKTXgwdEh1bHVKSGQ3WGFmTWp0TGdJZG1CVEVsYVAzYlJpSnJXSjNlRHdRMlErMmlWTlRYcnhNTWhBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTIsImFkdlNlY3JldEtleSI6ImJlT1dudXR5WkZwR2Q3Y2NPTjNHYThYYjFPNERNQ1VqR3dTQTd5YUx4V0E9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImhVNDNqaExTVEgtVGxadGFyc2xfRHciLCJwaG9uZUlkIjoiZjkwYzBjYzgtYWRjMS00Nzc4LWFkODUtNDU4NjEzM2Q0MzIxIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNKYzdYS3JvZ1dOUnp4SjdaSkJqUUQ1VXBGQT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhMjJDTWZxZ0hZa2Vjckx0QXJnU2FodmZpZTQ9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiTVpRSzZIVlMiLCJtZSI6eyJpZCI6IjIzMzU5NzU0NDI5ODoyNkBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJCcmlnaHQgTGFycnkifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ09HK2k0SURFSUtIbDdBR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkNHQ2FyL3ZiaHpZV0ZKblJGbmVBTk1HcWx2cEVUU3VUeC9rNGtyRW13MWs9IiwiYWNjb3VudFNpZ25hdHVyZSI6Ik5lcDd3c051dEVST1phWEpZMHpUMDFHREJFY1NxcFFHSVMwcEo1L3B1a1dOUkkrSnVhdzFNeDZxTTM5QUtNaGdXYnJ5NWd0MWRrQzNweDhlQ0d0RkFnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ6YmlvNDRENTNWZ2JTSlpFVnJFRUIyK1VUbGdWNDc5WUhJTHM1RC9yTjhTdk9hWVd5THcwN3cxc1hLMTVKSTdkUjRNZ1E3a3Z0Vk9KRHI3UkRZbnBpQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzMzU5NzU0NDI5ODoyNkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJRaGdtcS83MjRjMkZoU1owUlozZ0RUQnFwYjZSRTByazhmNU9KS3hKc05aIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzExNjUzNzY1LCJteUFwcFN0YXRlS2V5SWQiOiJBQUF
   errorChat: process.env.ERROR_CHAT || "",
   warncount: process.env.WARN_COUNT || 3,
   //userImages:process.env.USER_IMAGES|| "text",  // SET IMAGE AND VIDEO URL FOR BOT MENUS 
